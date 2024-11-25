@@ -16,14 +16,16 @@
 }
 
 #header {
+    height: 5.625rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 #logo-header {
-    height: 90px;
+    height: 100%;
 }
 
 #navbar {
@@ -34,4 +36,8 @@
 .navbar-items {
     text-decoration: none;
     color: black;   
+}
+
+main {
+    width: 100vw;
 }
