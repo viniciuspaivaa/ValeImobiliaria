@@ -2,10 +2,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100vh;
 }
 
 #banner {
-    width: 100vw;
+    width: 100%;
 }
 
 /* #search-tool {
@@ -22,15 +23,16 @@ main {
 
 #best-places-category {
     background-color: rgb(240, 240, 240);
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0px 60px 0px;
+    padding-bottom: 50px;
 }
 
 .sub-titles {
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 22px;
+    margin: 40px 0px 40px;
     font-weight: bold;
     color: #3c3c3c;
 }
@@ -67,4 +69,67 @@ main {
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+#new-property-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.np-cards {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.np-cards-img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+}
+
+.np-cards-content {
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.np-cards-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #3c3c3c;
+}
+
+.np-cards-subtitle {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.np-cards-details {
+    display: flex;
+    gap: 20px;
+}
+
+.display-flex {
+    display: flex;
+    gap: 3px;
+}
+
+.np-cards-icons {
+    width: 18px;
+    height: 18px;
+    opacity: 0.4;
+}
+
+.np-cards-icons-qntd {
+    color: #3c3c3c;
+    font-size: 14px;
+}
+
+.np-cards-price {
+    font-weight: 800;
+    font-size: 17px;
+    color: #3c3c3c;
 }

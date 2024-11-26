@@ -30,7 +30,7 @@
 
 #navbar {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .navbar-items {
@@ -39,5 +39,5 @@
 }
 
 main {
-    width: 100vw;
+    width: 100%;
 }
