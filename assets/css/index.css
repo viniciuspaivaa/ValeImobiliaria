@@ -73,7 +73,6 @@ main {
 
 #new-property-category {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -81,6 +80,7 @@ main {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 5px;
     width: 300px;
+    margin: 10px;
 }
 
 .np-cards-img {
