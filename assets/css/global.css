@@ -16,7 +16,7 @@
 }
 
 #header {
-    height: 5.625rem;
+    height: 5.625em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -40,6 +40,7 @@
 }
 
 .bi-list {
+    display: none;
     font-size: 23px !important;
     cursor: pointer;
 }
@@ -49,9 +50,9 @@ main {
 }
 
 #sidebar {
-    position: fixed;
+    display: none;
+    position: absolute;
     background-color: white;
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
@@ -59,4 +60,16 @@ main {
     right: 0;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    z-index: 1;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .navitems-header {
+        display: none;
+    }
+
+    .bi-list {
+        display: block;
+    }
 }
