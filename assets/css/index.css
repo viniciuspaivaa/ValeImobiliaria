@@ -34,10 +34,7 @@ main {
     margin: 40px 0px 40px;
     font-weight: bold;
     color: #3c3c3c;
-}
-
-.best-places-cards-link {
-    text-decoration: none;
+    text-align: center;
 }
 
 #best-places-category {
@@ -46,32 +43,41 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
     flex-wrap: wrap;
-}
-
-.best-places-cards {
-    max-height: 10rem;
-    max-width: 20rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 50px;
     padding: 10px;
 }
 
-.cards-img {
-    position: absolute;
-    height: auto;
-    width: 100%;
-    filter: brightness(0.5);
-    border-radius: 5px;
+.bp-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 160px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin: 10px;
 }
 
-.cards-title {
+.bp-cards-img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
     z-index: 0;
+}
+
+.bp-cards-title {
+    position: relative;
+    z-index: 1;
     color: white;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
 }
 
 #new-property-category {
