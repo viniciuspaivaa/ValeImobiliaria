@@ -74,6 +74,10 @@ main {
     width: 180px;
 }
 
+#rights {
+    text-align: center;
+}
+
 #follow {
     display: flex;
     align-items: center;
@@ -83,6 +87,14 @@ main {
 #follow-text {
     font-size: 12px;
     font-weight: bold;
+}
+
+@media (max-width: 870px) {
+    #footer {
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 768px) {
