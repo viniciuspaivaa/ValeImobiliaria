@@ -15,20 +15,15 @@ main {
 
 #banner {
     width: 100%;
-
 }
 
-/* #search-tool {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#search-tool-bar-input {
+    border: 0;
 }
 
-#search-tool-title {
-    font-size: 20px;
-    font-weight: bold;
-} */
+#search-tool-bar-input:focus {
+    border: 0;
+}
 
 .sub-titles {
     font-size: 22px;
