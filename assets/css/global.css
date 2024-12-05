@@ -64,6 +64,27 @@ main {
     padding: 15px;
 }
 
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer-logo {
+    width: 180px;
+}
+
+#follow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#follow-text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .navitems-header {
         display: none;
