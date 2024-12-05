@@ -159,13 +159,12 @@ main {
 
 #rec-banner {
     margin-top: 40px;
-    z-index: -1;
     display: block;
     object-fit: cover;
     object-position: center;
-    height: 100%;
     width: 100%;
     filter: brightness(0.3);
+    z-index: -1;
 }
 
 #rec-content {
@@ -206,7 +205,7 @@ main {
     #rec-subtitle {
         font-size: 12px;
     }
-
+    
     #rec-button {
         margin-top: 10px;
         width: 80px;
@@ -218,5 +217,9 @@ main {
 @media (max-width: 425px) {
     #banner {
         display: none;
+    }
+    
+    #rec-banner {
+        height: 200px;
     }
 }
