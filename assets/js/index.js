@@ -1,6 +1,14 @@
-const searchRoomsInput = document.getElementById('search-rooms-input');
-const searchRoomsBox = document.getElementById('search-rooms-box');
+const roomsInput = document.getElementById('search-rooms-input');
+const roomsBox = document.getElementById('search-rooms-box');
+const roomsBoxItems = document.querySelectorAll('.search-rooms-box-items')
 
-searchRoomsInput.addEventListener('click', () => {
-    searchRoomsBox.style.display = searchRoomsBox.style.display == 'none' ? searchRoomsBox.style.display = 'flex' : searchRoomsBox.style.display = 'none';
+roomsInput.addEventListener('click', () => {
+    roomsBox.style.display = roomsBox.style.display == 'none' ? roomsBox.style.display = 'flex' : roomsBox.style.display = 'none';
 })
+
+roomsBoxItems.forEach(item =>{
+    item.addEventListener('click', () => {
+        roomsInput.value = item.textContent;
+        roomsBox.style.display = 'none';
+    });
+});
