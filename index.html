@@ -35,16 +35,13 @@
     <main>
         <img id="banner" src="./assets/img/banner.png" alt="banner">
 
+        <p class="sub-titles">PESQUISE POR IMÓVEIS</p>
         <div id="search">
-        
-            <div id="search-place">
-                <input id="search-place-input" class="search-input" type="text" placeholder="Local">
-                <i class="bi bi-search"></i>
-            </div>
-
+            <span><input id="search-place-input" class="search-input" type="text" placeholder="Local"></span>
+           
             <div id="search-rooms">
                 <input id="search-rooms-input" class="search-input" type="text" placeholder="Quartos" readonly>
-                <div id="search-rooms-box" style="display: none;">
+                <div id="search-rooms-box" class="search-box" style="display: none;">
                     <div class="search-rooms-box-items">1</div>
                     <div class="search-rooms-box-items">2</div>
                     <div class="search-rooms-box-items">3</div>
@@ -53,10 +50,21 @@
                 </div>
             </div>
             
+            <div id="search-price">
+                <input id="search-price-input" class="search-input" type="text" placeholder="Preço" readonly>
+                <div id="search-price-box" class="search-box" style="display: none;">
+                    <div class="search-price-box-items">Até R$100.000</div>
+                    <div class="search-price-box-items">Até R$500.000</div>
+                    <div class="search-price-box-items">Até R$1.000.000</div>
+                    <div class="search-price-box-items">Até R$5.000.000</div>
+                    <div class="search-price-box-items">Mais que R$5.000.000</div>
+                </div>
+            </div>
+
+            <i class="bi bi-search"></i>
         </div>
       
         <p class="sub-titles">LUGARES MAIS MOVIMENTADOS</p>
-
         <div id="best-places-category">
             <div class="bp-cards">
                 <a class="bp-cards-link" href="">

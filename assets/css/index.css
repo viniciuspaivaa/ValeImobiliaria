@@ -18,15 +18,17 @@ main {
 }
 
 #search {
-    height: 150px;
     display: flex;
-    align-items: center;
 }
 
 .search-input {
     border: 0.2px groove gray;
     padding: 5px;
-    border-radius: 10px;
+}
+
+#search-place-input {
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
 }
 
 .search-input:focus {
@@ -38,21 +40,48 @@ main {
     width: 100px;
 }
 
-#search-rooms-box {
+.search-box {
     position: absolute;
     background-color: white;
-    width: 100px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     display: flex;
     flex-direction: column;
-
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 10px 10px;
     cursor: pointer;
+    font-size: 15px;
+}
+
+#search-rooms-box {
+    width: 100px;
 }
 
 .search-rooms-box-items {
     width: 100%;
     text-align: center;
+}
+
+#search-price-input {
+    border-radius: 0px 10px 10px 0px;
+    width: 180px;
+}
+
+#search-price-box {
+    width: 180px;
+    text-align: center;
+}
+
+.bi-search {
+    margin-left: 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: white;
+    font-size: 18px;
+    background-color: var(--Azul-claro);
+    cursor: pointer;
 }
 
 .sub-titles {

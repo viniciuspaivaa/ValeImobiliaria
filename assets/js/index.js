@@ -12,3 +12,18 @@ roomsBoxItems.forEach(item =>{
         roomsBox.style.display = 'none';
     });
 });
+
+const priceInput = document.getElementById('search-price-input');
+const priceBox = document.getElementById('search-price-box');
+const priceBoxItems = document.querySelectorAll('.search-price-box-items')
+
+priceInput.addEventListener('click', () => {
+    priceBox.style.display = priceBox.style.display == 'none' ? priceBox.style.display = 'flex' : priceBox.style.display = 'none';
+})
+
+priceBoxItems.forEach(item =>{
+    item.addEventListener('click', () => {
+        priceInput.value = item.textContent;
+        priceBox.style.display = 'none';
+    });
+});
