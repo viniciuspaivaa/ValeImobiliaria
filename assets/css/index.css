@@ -19,6 +19,7 @@ main {
 
 #search {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .search-input {
@@ -254,6 +255,14 @@ main {
 }
 
 @media (max-width: 720px) {
+    #search {
+        width: 250px;
+    }
+
+    #search-place-input {
+        width: 250px;
+    }
+
     #rec-title {
         font-size: 15px;
     }
