@@ -17,12 +17,27 @@ main {
     width: 100%;
 }
 
-#search-tool-bar-input {
-    border: 0;
+#search {
+    height: 150px;
+    display: flex;
+    align-items: center;
 }
 
-#search-tool-bar-input:focus {
-    border: 0;
+.search-input {
+    border: 0.2px groove gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+#search-rooms-box {
+    position: absolute;
+    background-color: white;
+    width: 175px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .sub-titles {
