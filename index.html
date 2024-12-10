@@ -39,29 +39,36 @@
         <div id="search">
             <span><input id="search-place-input" class="search-input" type="text" placeholder="Local"></span>
            
-            <div id="search-rooms">
-                <input id="search-rooms-input" class="search-input" type="text" placeholder="Quartos" readonly>
-                <div id="search-rooms-box" class="search-box" style="display: none;">
-                    <div class="search-rooms-box-items">1</div>
-                    <div class="search-rooms-box-items">2</div>
-                    <div class="search-rooms-box-items">3</div>
-                    <div class="search-rooms-box-items">4</div>
-                    <div class="search-rooms-box-items">Mais de 4</div>
+            <span class="display-flex">
+                <div id="search-rooms">
+                    <input id="search-rooms-input" class="search-input" type="text" placeholder="Quartos" readonly>
+                    <div id="search-rooms-box" class="search-box" style="display: none;">
+                        <div class="search-rooms-box-items">1</div>
+                        <div class="search-rooms-box-items">2</div>
+                        <div class="search-rooms-box-items">3</div>
+                        <div class="search-rooms-box-items">4</div>
+                        <div class="search-rooms-box-items">Mais de 4</div>
+                    </div>
                 </div>
-            </div>
-            
-            <div id="search-price">
-                <input id="search-price-input" class="search-input" type="text" placeholder="Preço" readonly>
-                <div id="search-price-box" class="search-box" style="display: none;">
-                    <div class="search-price-box-items">Até R$100.000</div>
-                    <div class="search-price-box-items">Até R$500.000</div>
-                    <div class="search-price-box-items">Até R$1.000.000</div>
-                    <div class="search-price-box-items">Até R$5.000.000</div>
-                    <div class="search-price-box-items">Mais que R$5.000.000</div>
+                
+                <div id="search-price">
+                    <input id="search-price-input" class="search-input" type="text" placeholder="Preço" readonly>
+                    <div id="search-price-box" class="search-box" style="display: none;">
+                        <div class="search-price-box-items">Até R$100.000</div>
+                        <div class="search-price-box-items">Até R$500.000</div>
+                        <div class="search-price-box-items">Até R$1.000.000</div>
+                        <div class="search-price-box-items">Até R$5.000.000</div>
+                        <div class="search-price-box-items">Mais que R$5.000.000</div>
+                    </div>
                 </div>
-            </div>
+            </span>
 
-            <i class="bi bi-search"></i>
+            <span id="mobile-search-button">
+                <p id="mobile-search-button-text">PESQUISAR</p>
+                <i class="bi bi-search" id="mobile-search-button-icon"></i>
+            </span>
+            
+            <i class="bi bi-search" id="desktop-search-button"></i>
         </div>
       
         <p class="sub-titles">LUGARES MAIS MOVIMENTADOS</p>

@@ -20,6 +20,7 @@ main {
 #search {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .search-input {
@@ -34,6 +35,10 @@ main {
 
 .search-input:focus {
     outline: none;
+}
+
+.display-flex {
+    display: flex;
 }
 
 #search-rooms-input {
@@ -64,11 +69,26 @@ main {
 #search-price-input {
     border-radius: 0px 10px 10px 0px;
     width: 180px;
+    text-align: center;
 }
 
 #search-price-box {
     width: 180px;
     text-align: center;
+}
+
+#mobile-search-button {
+    margin-top: 8px;
+    border-radius: 10px;
+    padding: 4px;
+    display: none;
+    align-items: center;
+    background-color: var(--Azul-claro);
+}
+
+#mobile-search-button-text {
+    color: white;
+    font-weight: bold;
 }
 
 .bi-search {
@@ -81,8 +101,12 @@ main {
     border-radius: 100%;
     color: white;
     font-size: 18px;
-    background-color: var(--Azul-claro);
     cursor: pointer;
+}
+
+#desktop-search-button {
+    background-color: var(--Azul-claro);
+
 }
 
 .sub-titles {
@@ -180,11 +204,6 @@ main {
     gap: 20px;
 }
 
-.display-flex {
-    display: flex;
-    gap: 3px;
-}
-
 .np-cards-icons {
     width: 18px;
     height: 18px;
@@ -256,11 +275,28 @@ main {
 
 @media (max-width: 720px) {
     #search {
-        width: 250px;
+        flex-direction: column;
     }
 
     #search-place-input {
-        width: 250px;
+        width: 280px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #search-rooms-input {
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    #search-price-input {
+        border-radius: 0px 0px 10px 0px;
+    }
+
+    #desktop-search-button {
+        display: none;
+    }
+
+    #mobile-search-button {
+        display: flex;
     }
 
     #rec-title {
