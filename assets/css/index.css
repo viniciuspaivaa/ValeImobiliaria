@@ -37,10 +37,6 @@ main {
     outline: none;
 }
 
-.display-flex {
-    display: flex;
-}
-
 #search-rooms-input {
     text-align: center;
     width: 100px;
@@ -212,6 +208,7 @@ main {
 }
 
 .np-cards-icons {
+    margin-right: 5px;
     width: 18px;
     height: 18px;
     opacity: 0.4;

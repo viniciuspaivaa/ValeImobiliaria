@@ -15,6 +15,12 @@
     font-family: "Poppins", sans-serif;
 }
 
+
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
 #header {
     height: 90px;
     display: flex;
