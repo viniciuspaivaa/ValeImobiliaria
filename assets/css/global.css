@@ -69,7 +69,7 @@
 }
 
 #footer-logo {
-    width: 180px;
+    width: 160px;
 }
 
 #rights {
@@ -91,7 +91,7 @@
     #footer {
         flex-direction: column;
         gap: 25px;
-        margin-bottom: 25px;
+        padding-bottom: 25px;
     }
 }
 
