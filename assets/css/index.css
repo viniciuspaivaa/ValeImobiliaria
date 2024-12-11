@@ -169,6 +169,10 @@ main {
     justify-content: center;
 }
 
+.np-cards-link {
+    text-decoration: none;
+}
+
 .np-cards {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 5px;
@@ -183,6 +187,7 @@ main {
 }
 
 .np-cards-content {
+    color: black;
     padding: 10px;
     height: 150px;
     display: flex;
