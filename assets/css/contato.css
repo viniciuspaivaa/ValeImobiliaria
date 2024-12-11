@@ -17,15 +17,35 @@
 }
 
 #main {
+    padding-bottom: 77px;
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#contact {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#title {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 870px) {
+    #main {
+        padding-bottom: 200px;
+    }
 }
