@@ -27,13 +27,41 @@ p {
     font-size: 26px;
 }
 
-.details-icons {
-    margin-right: 5px;
-    width: 18px;
-    height: 18px;
-    opacity: 0.4;
+#side-area-subtitle {
+    font-size: 15px;
 }
 
+.side-content-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.details-icons {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    opacity: 0.8;
+}
+
+.details-desc {
+    font-size: 12px;
+}
+
+.details-desc-tip {
+    margin-left: 5px;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.details-qntd {
+    font-size: 12px;
+    text-align: center;
+}
+
+#price {
+    
+}
 
 .carousel {
     width: 70% !important;
