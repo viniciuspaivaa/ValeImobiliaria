@@ -38,6 +38,38 @@
     padding-bottom: 10px;
 }
 
+#form-container {
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-label {
+    font-size: 13px;
+}
+
+.form-input {
+    border-radius: 5px;
+    border: .1px solid black;
+}
+
+#form-textarea {
+    border-radius: 5px;
+    border: .1px solid black;
+    max-width: 90vw;
+}
+
+#line {
+    height: 210px;
+    width: 0.2px;
+    margin: 20px;
+    color: rgb(180, 180, 180);
+}
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -46,6 +78,17 @@
 
 @media (max-width: 870px) {
     #main {
-        padding-bottom: 200px;
+        padding-bottom: 225px;
+    }
+}   
+
+@media (max-width: 510px) {
+    #contact-display-flex {
+        flex-direction: column;
+    }
+
+    #line {
+        width: 210px;
+        height: 0.2px;
     }
 }

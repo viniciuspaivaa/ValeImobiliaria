@@ -12,32 +12,35 @@
 
     <main id="main">
         <div id="container">
-            <div id="contact">
-                <p id="title">CONTATO</p>
-        
-                <span>
-                    <p><i class="bi bi-envelope-fill"></i> contatovale@imobiliaria.com</p>
-                    <p><i class="bi bi-whatsapp"></i> 99 9 8765-4321</p>
-                    <p><i class="bi bi-instagram"></i> @vale</p>
-                </span>
+
+            <p id="title">CONTATO</p>
+            <div class="display-flex" id="contact-display-flex">
+                <div id="form-container">
+                    <form id="form" action="">
+                        <label class="form-label" for="">Nome</label>
+                        <input class="form-input" type="text">
+                        
+                        <label class="form-label" for="">Sobrenome</label>
+                        <input class="form-input" type="text">
+                        
+                        <label class="form-label" for="">Email</label>
+                        <input class="form-input" type="email">
+                        
+                        <label class="form-label" for="">Mensagem</label>
+                    </form>
+                </div>
+
+                <hr id="line">
+            
+                <div id="contact">
+                    <span>
+                        <p><i class="bi bi-envelope-fill"></i> contatovale@imobiliaria.com</p>
+                        <p><i class="bi bi-whatsapp"></i> 99 9 8765-4321</p>
+                        <p><i class="bi bi-instagram"></i> @vale</p>
+                    </span>
+                </div>           
             </div>
 
-        </div>
-
-        <div id="form-container">
-            <form id="form" action="">
-                <label class="form-label" for="">Nome</label>
-                <input class="form-input" type="text">
-
-                <label class="form-label" for="">Sobrenome</label>
-                <input class="form-input" type="text">
-
-                <label class="form-label" for="">Email</label>
-                <input class="form-input" type="email">
-
-                <label class="form-label" for="">Mensagem</label>
-                <textarea name="" id="form-textarea"></textarea>
-            </form>
         </div>
     </main>
 </body>
