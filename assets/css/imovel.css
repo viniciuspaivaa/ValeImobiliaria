@@ -116,6 +116,33 @@ p {
     flex-direction: column;
 }
 
+#form-full-name {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-input-label {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-label {
+    font-size: 13px;
+    margin: 10px 0px 5px 0px !important;    
+}
+
+.form-input {
+    border-radius: 5px;
+    border: .1px solid black;
+    padding: 5px;
+}
+
+.form-input:focus {
+    border: .5 solid black;
+}
+
 @media (max-width: 768px) {
     #top-content-container {
         flex-direction: column;
@@ -127,5 +154,18 @@ p {
 
     .carousel {
         width: 100%;
+    }
+
+    #main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #local {
+        width: 100%;
+    }
+
+    #form-container {
+        width: 80%;
     }
 }

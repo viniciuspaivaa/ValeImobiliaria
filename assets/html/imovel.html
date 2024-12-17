@@ -99,17 +99,23 @@
                 <div id="local">
                     <p class="title">Localização no mapa</p>
                     <hr>
-                    <img class="local-img" src="/assets/img/maps/belo_horizonte.png" alt="">
+                    <img id="local-img" src="/assets/img/maps/belo_horizonte.png" alt="">
                 </div>
                 <div id="form-container">
                     <p class="title">Contate o corretor</p>
                     <hr>
                     <form id="form" action="">
-                        <label class="form-label" for="">Nome</label>
-                        <input class="form-input" type="text">
-                        
-                        <label class="form-label" for="">Sobrenome</label>
-                        <input class="form-input" type="text">
+                        <div id="form-full-name">
+                            <div class="form-input-label">
+                                <label class="form-label" for="">Nome</label>
+                                <input class="form-input" type="text">
+                            </div>
+                            
+                            <div class="form-input-label">
+                                <label class="form-label" for="">Sobrenome</label>
+                                <input class="form-input" type="text">
+                            </div>
+                        </div>
                         
                         <label class="form-label" for="">Email</label>
                         <input class="form-input" type="email">
